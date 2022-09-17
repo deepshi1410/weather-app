@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Teller</title>    
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+
+      <div class="current-weather">
+    
+        <div class="left">
+          <canvas class="icon"></canvas>
+          <p id="summary"></p>
+        </div>
+        <div class="right">
+          <input id="location" type="text" value="" />
+          <h2>Today, <span class="day"></span></h2>
+          <h3 class="temperature">Temperature: <span class="temp"></span></h3>
+          <h3>Wind speed: <span id="wind"></span></h3>
+          <h3>Humidity: <span id="humidity"></span></h3>
+        </div>
+    
+      </div>
+      <!-- END of .current-weather -->
+    
+      <div class="week-weather">
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+        <div class="day-of-week">
+          <h2 class="day"></h2>
+          <canvas class="icon"></canvas>
+          <h3 class="temperature temp"></h3>
+        </div>
+    
+      </div>
+      <!-- END of .week-weather -->
+    </div>
+    <!-- END of .container -->
+  </main>
+</body>
+<script src="index.js"></script>
+
+</html>
